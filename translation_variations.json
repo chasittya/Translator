@@ -1,0 +1,47 @@
+{
+    "reference_texts": {
+        "hi": [
+            "मैं उम्मीद करता हूँ कि आपका कल का दिन बहुत अच्छा हो।",
+            "मुझे आशा है कि आपका कल का दिन अच्छा हो।"
+        ],
+        "es": [
+            "Espero que tengas un gran día mañana.",
+            "Espero que tengas un buen día mañana."
+        ],
+        "fr": [
+            "J'espère que tu passeras une excellente journée demain.",
+            "J'espère que vous passerez une bonne journée demain."
+        ],
+        "ar": ["آمل أن يكون لديك يوم رائع غداً.", 
+               "أتمنى أن يكون لديك يوم عظيم غداً."]
+    },
+    "synonyms": {
+        "hi": {
+            "अच्छा": "महान",
+            "महान": "अच्छा",
+            "हेलो": "नमस्ते"
+        },
+        "es": {
+            "gran": "buen",
+            "buen": "gran"
+        },
+        
+        "fr": { "bonne": "excellente",
+                "excellente": "bonne" },
+
+        "ar": { "رائع": "عظيم",
+                "عظيم": "رائع" }
+    },
+    "formal_informal": {
+        "fr": {
+            "tu": "vous",
+            "vous": "tu",
+            "n'est-ce pas?": "non?"
+        },
+        "es": {
+            "tengas": "tenga",
+            "tenga": "tengas", 
+            "¿verdad?": "¿no?"
+        }
+    }
+}
