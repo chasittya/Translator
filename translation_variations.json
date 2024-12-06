@@ -1,47 +1,116 @@
 {
     "reference_texts": {
         "hi": [
-            "मैं उम्मीद करता हूँ कि आपका कल का दिन बहुत अच्छा हो।",
-            "मुझे आशा है कि आपका कल का दिन अच्छा हो।"
+            "नमस्ते, आप कैसे हैं?",
+            "हैलो, आप कैसे हो?",
+            "आपका हालचाल कैसा है?",
+            "नमस्कार, आप का हालचाल कैसा है?",
+            "नमस्ते आप कैसे हैं।",
+            "हैलो आप कैसे हो।"
         ],
         "es": [
-            "Espero que tengas un gran día mañana.",
-            "Espero que tengas un buen día mañana."
+            "¿Hola, cómo estás?",
+            "Hola, ¿cómo te encuentras?",
+            "Hola, ¿qué tal?",
+            "¿Hola, cómo te sientes?",
+            "Hola, ¿cómo estás?",
+            "¿Hola cómo estás?",
+            "Hola cómo estás."
         ],
         "fr": [
-            "J'espère que tu passeras une excellente journée demain.",
-            "J'espère que vous passerez une bonne journée demain."
+            "Bonjour, comment allez-vous?",
+            "Salut, comment ça va?",
+            "Bonjour, comment vas-tu?",
+            "Salut, comment tu te sens?"
         ],
-        "ar": ["آمل أن يكون لديك يوم رائع غداً.", 
-               "أتمنى أن يكون لديك يوم عظيم غداً."]
+        "ar": [
+            "مرحباً، كيف حالك؟",
+            "مرحباً، كيف أنت؟",
+            "السلام عليكم، كيف حالكم؟",
+            "مرحباً، كيف حال الأحوال؟"
+        ],
+        "pt": [
+            "Olá, como você está?",
+            "Oi, tudo bem?",
+            "Olá, como vai você?",
+            "Oi, como está se sentindo?"
+        ]
     },
     "synonyms": {
         "hi": {
-            "अच्छा": "महान",
-            "महान": "अच्छा",
-            "हेलो": "नमस्ते"
+            "हैलो": "नमस्ते",
+            "नमस्ते": "हैलो",
+            "हैं": "हो",
+            "हो": "हैं"
         },
         "es": {
             "gran": "buen",
             "buen": "gran"
         },
-        
-        "fr": { "bonne": "excellente",
-                "excellente": "bonne" },
-
-        "ar": { "رائع": "عظيم",
-                "عظيم": "رائع" }
+        "fr": {
+            "bonne": "excellente",
+            "salut": "bonjour",
+            "tu": "vous"
+        },
+        "ar": {
+            "مرحباً": "السلام عليكم",
+            "حال": "أحوال",
+            "مرحبا،": "مرحباً",
+            "كيف حالك؟": "كيف حالك",
+            "مرحباً": "كيف حالك"
+        },
+        "pt": {
+            "vai": "está",
+            "bem": "ótimo"
+        }
     },
     "formal_informal": {
-        "fr": {
-            "tu": "vous",
-            "vous": "tu",
-            "n'est-ce pas?": "non?"
+        "hi": {
+            "आप कैसे हो": "आप कैसे हैं",
+            "आप": "तुम",
+            "तुम": "आप",
+            "हैं": "हो",
+            "हो": "हैं"
         },
         "es": {
             "tengas": "tenga",
-            "tenga": "tengas", 
             "¿verdad?": "¿no?"
+        },
+        "fr": {
+            "tu": "vous",
+            "n'est-ce pas?": "non?"
+        },
+        "ar": {
+            "أنت": "حضرتك"
+        },
+        "pt": {
+            "você": "tu"
+        }
+    },
+    "punctuation_adjustments": {
+        "hi": {
+            "।": ["।", ".", "!"],
+            ",": ["", ","],
+            "ं": ["ं"]
+        },
+        "es": {
+            "¿": ["¿"],
+            "!": ["!"],
+            ".": ["."]
+        },
+        "fr": {
+            "«": ["\"", "'"],
+            "»": ["\"", "'"],
+            ".": ["."]
+        },
+        "ar": {
+            "؟": ["؟"],
+            "!": ["!"],
+            "،": ["،"]
+        },
+        "pt": {
+            ".": ["."],
+            ",": [","]
         }
     }
 }
