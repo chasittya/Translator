@@ -1,0 +1,12 @@
+tensorflow
+transformers
+datasets
+evaluate
+sacremoses
+sentencepiece
+sacrebleu
+huggingface_hub
+numpy
+pandas
+matplotlib
+seaborn
