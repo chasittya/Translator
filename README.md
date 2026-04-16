@@ -59,7 +59,7 @@ The project uses the following MarianMT checkpoints:
 ## Project Structure
 
 ```text
-translator-app/
+Translator/
 ├── main.py
 ├── requirements.txt
 ├── translation_variations.json
