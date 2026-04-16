@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/12zX_6k_rW3U05e8BLOc3M-8bmlEGIo2W
 
 Name: Chasitty Ayala
-requirements needed:
+requirements needed if running in notebook (colab/ jupyter) 
 !pip install --upgrade tensorflow transformers datasets sacremoses sentencepiece sacrebleu evaluate huggingface_hub -q
 """
 
