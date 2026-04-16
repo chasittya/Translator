@@ -7,9 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/12zX_6k_rW3U05e8BLOc3M-8bmlEGIo2W
 
 Name: Chasitty Ayala
+requirements needed:
+!pip install --upgrade tensorflow transformers datasets sacremoses sentencepiece sacrebleu evaluate huggingface_hub -q
 """
 
-!pip install --upgrade tensorflow transformers datasets sacremoses sentencepiece sacrebleu evaluate huggingface_hub -q
 
 #importing required libraries
 import os
